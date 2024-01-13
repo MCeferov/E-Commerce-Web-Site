@@ -16,6 +16,15 @@ li{
     font-family: SatoshiRegular;
     src: url('../fonts/Satoshi/Satoshi-Regular.otf');
 }
+
+@font-face {
+    font-family: ClashMedium;
+    src: url('../fonts/Clash/ClashDisplay-Medium.otf');
+}
+@font-face {
+    font-family: ClashRegular;
+    src: url('../fonts/Clash/ClashDisplay-Regular.otf');
+}
 .container{
     width:85%;
     margin:auto;

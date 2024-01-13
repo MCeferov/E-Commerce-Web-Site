@@ -99,6 +99,7 @@ nav{
 }
 #banner .left p:first-child{
     margin-bottom:40px;
+    font-family: ClashRegular;
 }
 #banner .left a{
     display: inline-block;
