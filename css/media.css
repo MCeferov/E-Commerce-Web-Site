@@ -1,0 +1,49 @@
+@media only screen and (max-width:992px){
+    .bottom-header{
+     display: none;
+    }
+    .top-header nav{
+        display: none;
+    }
+    .mobil-header-icons{
+        display: flex;
+    }
+    .header-icons{
+        display: none;
+    }
+    #banner .right{
+        display: none;
+    }
+    #banner .left{
+        width: 100%;
+        padding:24px;
+        align-items: center;
+    }
+    #banner .left a{
+        width: 100%;
+        text-align: center;
+    }
+    #banner {
+        padding:0px;
+        background-color: var(--firstBackColor);
+    }
+    #banner .container{
+        width: 100%;
+    }
+    #banner .left p:last-child{
+        order:2;
+    }
+    #banner .left a{
+        order:3;
+        margin-top: 32px;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    #banner .left p:last-child{
+        padding-top:80px;
+    }
+    #banner .left p:first-child{
+        font-size: 24px;
+    }
+}
