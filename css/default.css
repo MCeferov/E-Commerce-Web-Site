@@ -18,12 +18,20 @@ li{
 }
 
 @font-face {
+    font-family: SatoshiLight;
+    src: url('../fonts/Satoshi/Satoshi-Light.otf');
+}
+@font-face {
     font-family: ClashMedium;
     src: url('../fonts/Clash/ClashDisplay-Medium.otf');
 }
 @font-face {
     font-family: ClashRegular;
     src: url('../fonts/Clash/ClashDisplay-Regular.otf');
+}
+@font-face {
+    font-family: ClashLight;
+    src: url('../fonts/Clash/ClashDisplay-Light.otf');
 }
 .container{
     width:85%;

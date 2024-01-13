@@ -37,6 +37,13 @@
         order:3;
         margin-top: 32px;
     }
+
+    .feature-item{
+        width: 45%;
+    }
+    .feature-title{
+        margin-top:50px;
+    }
 }
 
 @media only screen and (max-width:1200px){
@@ -51,5 +58,21 @@
 @media only screen and (max-width:576px){
     .top-header{
         padding:20px 30px;
+    }
+    .feature-item{
+        width:100%;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width:768px){
+    .arrival-item{
+        width: 48%;
+        margin-bottom: 25px;
+    }
+    .collection-button a{
+        display: flex;
+        justify-content: center;
     }
 }
